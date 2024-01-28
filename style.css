@@ -1,0 +1,100 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ body {
+     padding-top: 20px; /* adiciona espaçamento */
+     padding-right: 100px;
+     padding-left: 100px;
+     overflow: hidden; /* oculta a barra de rolagem */
+ }
+ 
+ .conteudo {
+     width: 100%; /* largura */
+     display: flex;
+     justify-content: space-between; /* adiciona espaço entre os itens */
+     align-items: center; /* alinha  tudo ao centro */
+ }
+ 
+ .caixa-texto {
+     width: 600px;
+     margin-top: 2px;
+ }
+ 
+ .caixa-imagem {
+     width: 500px;
+     display: flex;
+     justify-content: flex-end; /* joga item todo pro lado */
+     margin-top: 70px;
+ }
+ 
+ .menu {
+     display: flex;
+     justify-content: left; /* joga itens para o centro */
+ }
+ 
+
+ 
+ h2 {
+     font-size: 45px;
+     font-weight: 400;
+ }
+ 
+ span {
+     color: #017143;
+     font-size: 45px; /* muda tamanho do texto */
+     font-weight: 900;  /* muda a grossura do texto */
+ }
+ 
+ p {
+     font-size: 16px;
+     margin-top: 18px;
+     margin-bottom: 20px;
+ }
+ 
+ .logo {
+    width: 75px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+ }
+ 
+ .starbucks {
+     width: 285px;
+     z-index: 2; /* define se o item está a frente ou atrás */
+ }
+ 
+ .copo-pequeno {
+     width: 60px;
+     cursor: pointer;
+     transition: 1s; /* tempo de transição para o item "pular" */
+     z-index: 2; /* define se o item está a frente ou atrás */
+     margin-top: -100px;
+     margin-bottom: 25px;
+
+ }
+ 
+ .copo-pequeno:hover {
+     transform: translateY(-30px); /* o quanto o item irá "pular" de altura */
+ }
+ 
+ .circulo {
+     background: #017143;
+     width: 100%;
+     height: 120%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     clip-path: circle(720px at right 750px);
+ }
+
+ button {
+    background-color: #017143; /* cor de fundo */
+    color: #ffffff; /* cor do texto */
+    border: none; /* borda */
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 2; /* define se o item está a frente ou atrás */
+}
