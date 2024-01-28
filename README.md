@@ -5,4 +5,4 @@ Estilização no CSS;
 JavaScript.
 
 
-<a href="https://jngcvs-starbucks.netlify.app/)">Site do projeto</a>
+<a href="https://jngcvs-starbucks.netlify.app">Site do projeto</a>
