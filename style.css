@@ -2,7 +2,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', italic;
  }
  
  body {
@@ -20,7 +20,7 @@
  }
  
  .caixa-texto {
-     width: 600px;
+     width: 620px;
      margin-top: 2px;
  }
  
@@ -39,8 +39,9 @@
 
  
  h2 {
-     font-size: 45px;
+     font-size: 42px;
      font-weight: 400;
+     font-style:italic;
  }
  
  span {
@@ -62,7 +63,7 @@
  }
  
  .starbucks {
-     width: 285px;
+     width: 290px;
      z-index: 2; /* define se o item está a frente ou atrás */
  }
  
@@ -87,7 +88,7 @@
      position: absolute;
      top: 0;
      left: 0;
-     clip-path: circle(720px at right 750px);
+     clip-path: circle(700px at right 720px);
  }
 
  button {
